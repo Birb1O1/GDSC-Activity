@@ -1,13 +1,14 @@
 // Firebase Configuration
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT_ID.appspot.com",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
-};
-
+    apiKey: "AIzaSyDdhffMPmSVm3-jkKniU0b-LbljKndXM7c",
+    authDomain: "gdscactivity.firebaseapp.com",
+    projectId: "gdscactivity",
+    storageBucket: "gdscactivity.firebasestorage.app",
+    messagingSenderId: "1064818545397",
+    appId: "1:1064818545397:web:38e5bd5b2e4253b317abbc",
+    measurementId: "G-WDNS22BMP1"
+  };
+  
 // Initialize Firebase (Prevent multiple initializations)
 if (!firebase.apps.length) {
     firebase.initializeApp(firebaseConfig);
